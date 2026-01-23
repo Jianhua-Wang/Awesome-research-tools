@@ -1,13 +1,13 @@
 ---
 title: "热知识"
-date: 2024-07-01T14:59:38+08:00
+date: 2026-01-23T22:30:00+08:00
 draft: false
 weight: 110
 summary: 一些小tips
 ---
-
-
-- Overleaf 的会员功能（无限制的历史记录非常好用）可以通过邀请指定数量的新用户解锁，在某购物平台上可以低价解锁。
-- [谷歌学术](https://scholar.google.com/)搜索到的论文清单中，直接点击论文左下方的`引用`-`BibTex`可获得精简的论文 Bib 格式引用。
-- Grammarly 可以在某购物平台上以非常亲民的价格购买周、月的会员，性价比很高。
-- [JetBrains](https://jetbrains.com) 的系列开发工具（如 IDEA、PyCharm专业版 等）均可通过学生认证免费使用正版软件，一次认证可以管一年，到期了再更新认证信息即可，参考 [2022 JetBrains 开发工具学生免费申请指南](https://www.bilibili.com/read/cv18402226)。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [Overleaf](https://www.overleaf.com) 会员 | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 会员功能可以在小黄鱼app上低价购买 |
+| [谷歌学术](https://scholar.google.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 论文列表中点击“引用”-“BibTex”可获得精简 Bib。 |
+| [Grammarly](https://app.grammarly.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 会员可低价购买短期订阅，性价比高。 |
+| [JetBrains 学生认证](https://jetbrains.com) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 学生认证可免费使用 IDEA/PyCharm 等专业版，可参考申请指南。 |

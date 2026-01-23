@@ -1,6 +1,6 @@
 ---
 title: "阅读、笔记、写作"
-date: 2024-07-01T14:31:36+08:00
+date: 2026-01-23T22:30:00+08:00
 draft: false
 weight: 100
 summary: 文献的管理、阅读、笔记、写作
@@ -8,63 +8,82 @@ summary: 文献的管理、阅读、笔记、写作
 
 ## 文献管理
 
-- [Zotero](https://zotero.org/)：免费、开源的文献管理软件，支持分组、标签、笔记、导出引文、云同步。可配合OneDirve等云盘使用。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [Zotero](https://zotero.org/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 免费、开源的文献管理软件，支持分组、标签、笔记、导出引文、云同步。可配合OneDrive等云盘使用。 |
+| [Read Paper](https://readpaper.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 多功能文献阅读器，除了基础的文献管理、笔记功能外，还有比较有特色论文搜索与学术讨论功能。支持多客户端，需注册账号。 |
+| [Mendeley](https://www.mendeley.com/) | ![Stale](https://img.shields.io/badge/Status-Stale-yellow) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | Elsevier 旗下老牌文献阅读、管理、云同步软件。目前建议下载老版本的[Mendeley Desktop](https://www.mendeley.com/reference-management/mendeley-desktop)。 |
+| [Juris-m](https://juris-m.github.io/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 基于开源的 Zotero 项目，有着更进一步的功能和对中文更好的支持。 |
+| [小绿鲸SCI阅读器](https://www.xljsci.com) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 集成了 PDF 翻译、笔记、收藏语料、文献管理、云阅读等功能。需注册账号，免费用户有1G网盘容量。 |
+| [Papers](https://www.papersapp.com/) |  | 待补充完善。 |
 
-  推荐的 Zotero 插件：
+<details>
+<summary><b>Zotero 推荐插件</b></summary>
 
-  - [zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate)：pdf 划词翻译插件，文档完善，更新较频繁，支持 Zotero7，需要手动配置翻译 api。
-  - [zotero-style](https://github.com/MuiseDestiny/zotero-style)：zotero 界面增强插件，可以通过配置 easyscholar api 来实现 SCI/CCF 的查询和展示。
-  - [zotero-better-notes](https://github.com/windingwind/zotero-better-notes)：zotero 笔记增强插件，文档完善，更新较频繁，提供了双链笔记、同步导出、模板、从注释创建笔记等功能，方便和 Obsidian 等其他笔记软件联动。
-  - [arXiv Workflow for Zotero](https://github.com/AllanChain/zotero-arxiv-workflow)：arXiv 辅助插件，提供检索 DOI、更新/合并论文信息、arXiv 版本论文下载等功能。
-  - [Linter for Zotero](https://github.com/northword/zotero-format-metadata)：条目元数据规范化插件，可通过配置 [semantic scholar](https://www.semanticscholar.org/) api 来检索和更新已发表论文信息。
-  
-- [Read Paper](https://readpaper.com/)：多功能文献阅读器，除了基础的文献管理、笔记功能外，还有比较有特色论文搜索与学术讨论功能，无翻译功能。支持多客户端，需注册账号，目前（截止至2307）有200篇免费文献的云空间。
-- [mendeley](https://www.mendeley.com/)：Elsevier 旗下老牌文献阅读、管理、云同步软件。目前建议下载老版本的[Mendeley Desktop](https://www.mendeley.com/reference-management/mendeley-desktop)
-- [Juris-m](https://juris-m.github.io/)：基于开源的 Zotero 项目，有着更进一步的功能和对中文更好的支持。
-- [小绿鲸SCI阅读器](https://www.xljsci.com)：集成了 PDF 翻译、笔记、收藏语料、文献管理、云阅读等功能，全能的一款科研工具。需注册账号，免费用户只有1G的网盘容量且翻译功能受限制，支持多客户端。
-- [papers](https://www.papersapp.com/)：待补充完善。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | PDF 划词翻译插件，文档完善，更新较频繁，支持 Zotero7。 |
+| [zotero-style](https://github.com/MuiseDestiny/zotero-style) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Zotero 界面增强插件，可以通过配置 easyscholar API 来实现 SCI/CCF 的查询和展示。 |
+| [zotero-better-notes](https://github.com/windingwind/zotero-better-notes) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Zotero 笔记增强插件，提供双链笔记、同步导出、模板等功能。 |
+| [arXiv Workflow for Zotero](https://github.com/AllanChain/zotero-arxiv-workflow) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | arXiv 辅助插件，提供检索 DOI、更新/合并论文信息、论文下载等功能。 |
+| [Linter for Zotero](https://github.com/northword/zotero-format-metadata) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 条目元数据规范化插件，可通过配置 Semantic Scholar API 来检索和更新论文信息。 |
+
+</details>
 
 ## 阅读与翻译
 
-- [DeepL翻译器](https://www.deepl.com/translator)：有时候比谷歌、百度的翻译更为智能一些。
-- [知云文献翻译软件](https://www.yuque.com/xtranslator/zy/gga6xa)：带划词翻译的 PDF 阅读器，免费，可自己选择调用的翻译接口（百度、谷歌等），在阅读英文文献时非常好用。
-- [arxiv-vanity](https://www.arxiv-vanity.com/)：以网页打开arXiv上的论文，方便快速阅读和翻译（有些论文会出现排版问题）。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [DeepL翻译器](https://www.deepl.com/translator) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 有时候比谷歌、百度的翻译更为智能。 |
+| [知云文献翻译软件](https://www.yuque.com/xtranslator/zy/gga6xa) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 带划词翻译的 PDF 阅读器，免费，可自己选择翻译接口。 |
+| [arxiv-vanity](https://www.arxiv-vanity.com/) | ![Dead](https://img.shields.io/badge/Status-Dead-red) ![Free](https://img.shields.io/badge/Price-Free-green) | 以网页打开arXiv论文，方便快速阅读和翻译（有些论文会出现排版问题）。已内嵌到arXiv中，因此项目不再被维护。 |
 
 ## 写作检查与优化
 
-- [DeepL Write](https://www.deepl.com/write)：DeepL 出品的写作优化工具，支持设置`学术`、`商业`、`技术`等写作风格，以及改写、更正两种模式，免费免登录。
-- [Grammarly](https://app.grammarly.com/)：能免费进行不限文本长度的语法检测，有单词替换建议等功能，需要登录使用，付费订阅能提供更专业的建议。
-- [LTex](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex)：VsCode 上的 Latex 语法插件，免费，适用于本地进行 LaTeX 写作与编译的情况。
-- [QuillBot](https://quillbot.com/)：重写和增强句子、段落或文章（润色），部分功能收费。
-- [textranch](https://textranch.com/)：单次100词以内免费，能按照需求进行一部分定置。
-- [grammarcheck](https://www.nounplus.net/grammarcheck/)：免费，不限文本长度，但是很简单，只能进行一些基本的语法错误检测。
-- [rewriter tools](https://rewritertools.com/)：免费的文章在线微调工具，支持重写、检查、优化等，可以尝试用于降重等场景。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [DeepL Write](https://www.deepl.com/write) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 写作优化工具，支持学术、商业、技术等写作风格，免费免登录。 |
+| [Grammarly](https://app.grammarly.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 免费语法检测，有单词替换建议，付费订阅提供更专业的建议。 |
+| [LTex](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | VsCode 上的 LaTeX 语法插件，适用于本地 LaTeX 写作与编译。 |
+| [QuillBot](https://quillbot.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 重写和增强句子、段落或文章（润色），部分功能收费。 |
+| [rewriter tools](https://rewritertools.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 免费文章在线微调工具，支持重写、检查、优化等。 |
+| [textranch](https://textranch.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 单次100词以内免费，能按照需求进行一部分定置。 |
+| [grammarcheck](https://www.nounplus.net/grammarcheck/) | ![Dead](https://img.shields.io/badge/Status-Dead-red) ![Free](https://img.shields.io/badge/Price-Free-green) | 免费、不限文本长度，但只能进行基本的语法错误检测。 |
 
 ## 写作参考
 
-- [linguee](https://cn.linguee.com)：DeepL 公司出品的例句搜索，支持中文搜英文。
-- [linggle](https://linggle.com/)：英文搜英文，能搜到某个短语的使用数量和比例，有时候访问不上。
-- [ACADEMIC AND PROFESSIONAL WRITING](https://writing.wisc.edu/handbook/assignments/writing-an-abstract-for-your-research-paper/)：如何写好一篇学术论文（右边菜单栏-Research Papers）。
-- [Paper-Writing-Tips](https://github.com/MLNLP-World/Paper-Writing-Tips)：有关论文写作的 tips、资源整理，对于初次使用 Latex 进行学术写作有帮助。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [linguee](https://cn.linguee.com) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | DeepL 公司出品的例句搜索，支持中文搜英文。 |
+| [linggle](https://search.linggle.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 英文搜英文，能搜到某个短语的使用数量和比例。 |
+| [ACADEMIC AND PROFESSIONAL WRITING](https://writing.wisc.edu/handbook/assignments/writing-an-abstract-for-your-research-paper/) | ![Stale](https://img.shields.io/badge/Status-Stale-yellow) | 如何写好一篇学术论文（右边菜单栏-Research Papers）。 |
+| [Paper-Writing-Tips](https://github.com/MLNLP-World/Paper-Writing-Tips) | ![Stale](https://img.shields.io/badge/Status-Stale-yellow) | 论文写作 tips 和资源整理，对初次使用 LaTeX 有帮助。 |
 
 ## 数学公式
 
-- [AxMath](https://www.amyxun.com/)：便宜好用的国产公式编辑器，按设备永久认证，MathType 的平替（不付费虽然功能受限，但也基本够用）。
-- [MathPix](https://mathpix.com/)：公式识别工具，可以使用桌面版进行快捷识别，但是每个月有次数限制（教育邮箱50次/月，其他20次/月，收费订阅可以提高数量限制），使用教育邮箱注册且只识别复杂公式的话是基本够用的。
-- [latexlive公式编辑器](https://www.latexlive.com/home)：网页版的 LaTeX 公式编辑器，支持拖拽、上传、剪切板粘贴进行图片识别，支持 Physics、Mhchem 等拓展。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [AxMath](https://www.amyxun.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Paid](https://img.shields.io/badge/Price-Paid-blueviolet) | 便宜好用的国产公式编辑器，按设备永久认证，MathType 的平替。 |
+| [MathPix](https://mathpix.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 公式识别工具，支持桌面版快捷识别，教育邮箱50次/月免费。 |
+| [latexlive公式编辑器](https://www.latexlive.com/home) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 网页版 LaTeX 公式编辑器，支持拖拽、上传、剪切板粘贴进行图片识别。 |
 
 ## 笔记
 
-- [语雀](https://www.yuque.com/)：阿里知识库创建平台，可以在线创建知识库，自动在线同步，写笔记较为好用，markdown格式，功能丰富，免费。
-- [Typora](https://typoraio.cn/)：免费的轻简化 markdown 笔记软件（现在有付费了，但总有办法让它free）。
-- [VS Code](https://code.visualstudio.com/): 搭配云存储+本地同步，例如 Google Drive、微云同步盘、百度网盘等。
-- [Obsidian](https://obsidian.md/)：基于Markdown格式的本地知识管理工具，功能多样且有丰富的插件和中文文档支持，官方提供的在线发布和同步功能收费，其他功能全部免费，建议搭配Google Drive等云存储使用。
-- [Gridea](https://gridea.dev/)：一款支持Markdown语法的博客工具。
-- [Github Page](https://docs.github.com/zh/pages/getting-started-with-github-pages/creating-a-github-pages-site)：GitHub 官方提供支持的静态网站构建服务。可以使用 GitHub 仓库直接构建，不需要进行服务器管理，但是也只支持基本的静态网站，可定制设计样式，对于笔记、博客场景基本够用。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [Obsidian](https://obsidian.md/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 基于 Markdown 的本地知识管理工具，功能丰富，插件众多，免费。 |
+| [语雀](https://www.yuque.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 阿里知识库创建平台，支持 Markdown 格式，功能丰富，免费。 |
+| [Typora](https://typoraio.cn/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 免费轻简化 Markdown 笔记软件。 |
+| [VS Code](https://code.visualstudio.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 搭配云存储+本地同步使用。 |
+| [Gridea](https://gridea.dev/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 支持 Markdown 语法的博客工具。 |
+| [Github Page](https://docs.github.com/zh/pages/getting-started-with-github-pages/creating-a-github-pages-site) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | GitHub 官方静态网站构建服务，适合笔记、博客场景。 |
 
 ## 其他
 
-- [深言达意](https://www.shenyandayi.com/)：[万词王](https://wantwords.thunlp.org/) 和 [据意查句](https://wantquotes.net/) 的官方整合版，中英文跨语言的词句检索工具。例如根据一个中/英文词按照词性、长度、首字母等检索相近意思的中/英文词，或根据输入的句意从古今中外的各类文学创作中查找相似意思的句子。可用于中、英论文写作时的遣词造句。
-- [acronymify](http://acronymify.com/search?q)：给定关键词，对模型、算法等进行命名，非常好玩的一个工具。
-- [PAPER DIGEST](https://www.paperdigest.org/)：总结科研课题研究进展。分 Literature Review（相关综述）和Literature Search（贡献值排序的相关文献）。
-- [changes](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/changes/changes.english.pdf)：用于追踪版本修订的 Latex 包，能快速地使用增加、删除、高亮、替换、备注等标注，有自带的脚本接受所有修改并移除对应的标注代码，在 Overleaf 和 TexLive 中都是自带的不必额外安装。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [深言达意](https://www.shenyandayi.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 万词王和据意查句的官方整合版，中英文跨语言的词句检索工具。 |
+| [acronymify](http://acronymify.com/search?q) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 给定关键词，对模型、算法等进行命名。 |
+| [PAPER DIGEST](https://www.paperdigest.org/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 总结科研课题研究进展，分综述和相关文献。 |
+| [changes](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/changes/changes.english.pdf) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 用于追踪版本修订的 LaTeX 包，在 Overleaf 和 TexLive 中自带。 |
+

@@ -1,6 +1,6 @@
 ---
 title: 'A.R.T. Awesome Research Tools.'
-date: 2024-07-01T14:14:39+10:00
+date: 2026-01-23T22:30:00+08:00
 draft: false
 weight: 0
 ---

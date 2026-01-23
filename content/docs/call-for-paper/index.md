@@ -1,15 +1,16 @@
 ---
 title: "会议/期刊列表"
-date: 2024-07-01T14:56:46+08:00
+date: 2026-01-23T22:30:00+08:00
 draft: false
 weight: 107
 summary: 会议和期刊的综合信息清单
 ---
-
-- [Top Computer Science Conferences](https://research.com/conference-rankings/computer-science)：计算机各个领域顶会会议列表及其会议时间、地点、截稿时间和影响因子。
-- ~~[Call4Papers](http://123.57.137.208/ccf/ccf-1.jsp)：CCF 推荐列表截稿日期。~~ 数据已清空，要求关注公众号。
-- [ccfddl](https://ccfddl.github.io/)、[ccfddl.top](https://ccfddl.top/)：CCF 推荐会议列表的截稿日期，可以按照领域、级别进行筛选，ccfddl.top 的使用体验更好，除了 ddl 以外，还会显示录用率、会议地点。
-- [scirev](https://scirev.org/reviews/nature-communications/?author_id=34152743&event_source=timeline&source=timeline&dt_dapp=1)：SCI 审稿数据统计网站。
-- [WIKICFP](http://www.wikicfp.com/cfp/)：WikiCFP is a [semantic wiki](http://en.wikipedia.org/wiki/Semantic_wiki) for Calls For Papers in science and technology fields.
-- [AI Conference Deadlines](https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM)：关于AI会议的截稿时间汇总。
-- [CS Conference Statistics](https://csconfstats.xoveexu.com/)：计算机学科会议的接受率、投稿数等统计，可以帮助了解近年来会议投稿趋势。还有有趣的[会议统计数据](https://csconfstats.xoveexu.com/fun-fact)。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [ccfddl](https://ccfddl.github.io/) / [ccfddl.top](https://ccfddl.top/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | CCF 推荐会议截止日期，可按领域/级别筛选，含录用率与地点等信息。 |
+| [CS Conference Statistics](https://csconfstats.xoveexu.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 会议接受率、投稿数统计，含趣味数据。 |
+| [scirev](https://scirev.org/reviews/nature-communications/?author_id=34152743&event_source=timeline&source=timeline&dt_dapp=1) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | SCI 审稿数据统计与经验。 |
+| [WIKICFP](http://www.wikicfp.com/cfp/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | Calls For Papers 的语义 wiki。 |
+| [AI Conference Deadlines](https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | AI 会议截稿时间汇总。 |
+| [Top Computer Science Conferences](https://research.com/conference-rankings/computer-science) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 顶会列表，含时间、地点、截稿、影响因子。 |
+| [Call4Papers](http://123.57.137.208/ccf/ccf-1.jsp) | ![Dead](https://img.shields.io/badge/Status-Dead-red) ![Free](https://img.shields.io/badge/Price-Free-green) | CCF 推荐列表截稿日期，数据已清空需关注公众号。 |

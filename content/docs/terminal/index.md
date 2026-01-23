@@ -1,10 +1,11 @@
 ---
 title: "终端管理"
-date: 2024-07-01T14:48:05+08:00
+date: 2026-01-23T22:30:00+08:00
 draft: false
 weight: 104
 summary: 本地与服务器终端工具
 ---
-
-- [MobaXterm](https://mobaxterm.mobatek.net/)：集成了丰富功能的服务器连接软件，可以在一个软件内使用SSH终端、SFTP、X Server等功能。大部分功能可以免费使用，但有会话数量限制，支持插件。
-- [XTerminal](https://www.xterminal.cn/)：国产的集成终端工具，功能类似 MobaXterm，界面更美观，支持各种皮肤（需要VIP）和终端风格，更新频繁，大部分功能可以免费使用。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [MobaXterm](https://mobaxterm.mobatek.net/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 集成 SSH、SFTP、X Server 等，大部分功能免费，会话数有限，支持插件。 |
+| [XTerminal](https://www.xterminal.cn/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 国产集成终端，界面美观，皮肤需 VIP，功能更新频繁，大部分免费。 |

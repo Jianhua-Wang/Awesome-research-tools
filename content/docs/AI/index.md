@@ -1,6 +1,6 @@
 ---
 title: "AI工具"
-date: 2024-07-01T14:57:59+08:00
+date: 2026-01-23T22:30:00+08:00
 draft: false
 weight: 108
 summary: 按类别和应用场景整理的各种AI工具
@@ -8,42 +8,84 @@ summary: 按类别和应用场景整理的各种AI工具
 
 ## GPTs（网页在线交互）
 
-- [DeepSeek](https://chat.deepseek.com/)：国产天花板之一，R1模型简单好用，但是可能会有网络连接问题。
-- [OpenAI-ChatGPT](https://chatgpt.com/)：唯一真神？需要梯子，部分收费。
-- [Microsoft-NewBing](https://copilot.microsoft.com/?showconv=1)：微软的GPT，优势部分内容基于必应的搜索引擎，能给出外部参考链接，因此幻觉**相对**较弱，内容**相对**可靠。
-- [Poe](https://poe.com/)：打包的各类 GPT。种类丰富：有免费也有收费、有绘图也有开发等等。
-- [学术 GPT 免费版](https://academic.chatwithpaper.org/)：免费的学术 GPT，支持处理 arXiv 和 pdf的论文。有问答、翻译等功能。
-- [百度-文心一言](https://yiyan.baidu.com/)：百度出品，免费。
-- [字节跳动-豆包](https://www.doubao.com/chat/)：字节跳动出品，免费，基本功能涵盖写作、总结、绘图等。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [DeepSeek](https://chat.deepseek.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 国产天花板之一，R1 模型简单好用，可能有网络连接问题。 |
+| [字节跳动-豆包](https://www.doubao.com/chat/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 字节出品，写作、总结、绘图等基础功能免费。 |
+| [OpenAI-ChatGPT](https://chatgpt.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 需要梯子，部分功能收费。 |
+| [Google-Gemini](https://gemini.google.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | Google Gemini，对话与多模态，提供免费额度与订阅。 |
+
+<details>
+<summary><b>更多 GPTs</b></summary>
+
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [Microsoft-Copilot](https://copilot.microsoft.com/?showconv=1) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 基于必应搜索，能给出外部参考链接，幻觉相对较弱。 |
+| [Poe](https://poe.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 打包多种 GPT，含免费与收费模型、绘图和开发等。 |
+| [学术 GPT 免费版](https://academic.chatwithpaper.org/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 免费学术 GPT，支持 arXiv 与 PDF，问答、翻译等功能。 |
+| [百度-文心一言](https://yiyan.baidu.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 百度出品，日常对话、写作、绘图等。 |
+
+</details>
 
 ## API 平台
 
- - [硅基流动](https://account.siliconflow.cn/)：价格亲民，新用户、邀请、学生认证均有额外赠送的额度。支持的知名模型主要包含DeepSeek、Qwen（阿里）、Hunyuan（腾讯）、THUDM（智谱）等系列，模型更新频率较高。支持微调和批量推理。
- - [阿里云百炼](https://bailian.console.aliyun.com/)：阿里的API平台，主要支持各种阿里系的模型（如通义千问、通义万相系列），也支持DeepSeek等其他系列的模型。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [硅基流动](https://account.siliconflow.cn/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 价格亲民，赠送额度，支持 DeepSeek、Qwen、Hunyuan、THUDM 等；支持微调和批量推理。 |
+| [阿里云百炼](https://bailian.console.aliyun.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 阿里系模型平台，含通义系列，也支持 DeepSeek 等其他模型。 |
 
 ## 本地客户端
 
-- [CherryStudio](https://www.cherry-ai.com/)：个人免费，目前支持市面上绝大多数服务商的集成,并且支持多服务商的模型统一调度。支持使用大部分模型进行知识库管理、对话/视觉/语音任务、划词翻译等，支持丰富的订制。有开源社区的支持，更新较为频繁。
-- [](https://claude.ai/download)：与 CherryStudio 类似。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [CherryStudio](https://www.cherry-ai.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 个人免费，集成多家模型，支持知识库、对话/视觉/语音、划词翻译，更新频繁。 |
+| [Claude 桌面版](https://claude.ai/download) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 与 CherryStudio 类似的本地客户端，支持多模型对话与生产力功能。 |
 
 ## MCPs
 
-- [魔搭社区 modelscope](www.modelscope.cn/mcp)：国产MCP平台，包含生活（地图、12306等）、开发、娱乐等各类的MCP，配合本地客户端可以进一步发挥大模型的潜力，大部分来自于Github。部分MCP不支持在线调用，魔搭社区只挂了个页面展示，真想用还得想办法手动部署啥的。
-- [smithery](https://smithery.ai/)：国外的MCP平台，相比魔搭可能支持更多Github上的MCP服务。
-- [火山引擎](https://www.volcengine.com/mcp-marketplace)：字节的MCP，与魔搭大差不差。
-- [百度搜索开放平台](https://sai.baidu.com/)：百度的MCP，与魔搭大差不差。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [魔搭社区 modelscope](https://www.modelscope.cn/mcp) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 国产 MCP 平台，覆盖生活、开发、娱乐等，多数来源于 GitHub，部分需自部署。 |
+| [smithery](https://smithery.ai/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 国外 MCP 平台，支持更多 GitHub 上的 MCP 服务。 |
+
+<details>
+<summary><b>更多 MCP 市场</b></summary>
+
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [火山引擎 MCP](https://www.volcengine.com/mcp-marketplace) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 字节出品，与魔搭类似的 MCP 市场。 |
+| [百度搜索开放平台](https://sai.baidu.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 百度 MCP 市场，与魔搭类似。 |
+
+</details>
   
 ## 编程助手
 
-- [Github-Copilot](https://copilot.microsoft.com/)：AI编程助手的佼佼者，收费，在校学生可以通过学生认证免费使用。
-- [CodeGeeX](https://github.com/THUDM/CodeGeeX2)：国产的编程助手，基于清华训练的多语言代码生成模型，可以注册后免费使用。
-- [阿里-通义灵码](https://tongyi.aliyun.com/lingma/)：一款基于阿里云通义代码大模型打造的智能编码助手，在合理使用下可以提高Coding效率。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [Github-Copilot](https://copilot.microsoft.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 主流 AI 编程助手，订阅付费，学生可免费使用。 |
+| [OpenAI-CodeX](https://openai.com/blog/openai-codex) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Paid](https://img.shields.io/badge/Price-Paid-blueviolet) | 代码生成模型/服务（商业付费）。 |
+| [字节-TRAE](https://www.volcengine.com/product/trae) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 字节出品的智能编码助手。 |
+| [智谱-GLM 编码助手](https://bigmodel.cn/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 智谱 GLM 系列的智能编码助手。 |
+
+<details>
+<summary><b>更多编程助手</b></summary>
+
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [CodeGeeX](https://github.com/THUDM/CodeGeeX2) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 国产编程助手，多语言代码生成，注册后可免费使用。 |
+| [阿里-通义灵码](https://tongyi.aliyun.com/lingma/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 基于通义大模型的智能编码助手，可提升编码效率。 |
+
+</details>
 
 ## 视觉生成与处理
 
-- [ideogram](https://ideogram.ai/t/explore)：比较好用的文生图工具，登录后可免费使用（截止至20240701），绘制的内容比较合符合预期，特别是预期出现在画面中的文字。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [ideogram](https://ideogram.ai/t/explore) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 文生图工具，登录后可免费使用（截至 2024-07-01），文字生成效果好。 |
 
 ## 提示词
 
-- [提示工程指南](https://www.promptingguide.ai/zh)：介绍了大语言模型相关的学习资料以及提示工程相关的内容。
-- [Prompt 大全](https://gpt.candobear.com/prompt)：一些提示词的案例，大部分以图片的形式展示。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [提示工程指南](https://www.promptingguide.ai/zh) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | LLM 与提示工程学习资料与指南。 |
+| [Prompt 大全](https://gpt.candobear.com/prompt) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Free](https://img.shields.io/badge/Price-Free-green) | 各类提示词案例，主要以图片形式展示。 |

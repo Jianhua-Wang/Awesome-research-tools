@@ -1,6 +1,6 @@
 ---
 title: "深度学习"
-date: 2024-07-01T14:47:04+08:00
+date: 2026-01-23T22:30:00+08:00
 draft: false
 weight: 103
 summary: 深度学习相关工具
@@ -8,33 +8,45 @@ summary: 深度学习相关工具
 
 ## 通用
 
-- [pytorch-lightning](https://www.pytorchlightning.ai/)：更为高级的 Pytorch 编程接口，能编写出更高质量、更简洁的 PyTorch 代码。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [pytorch-lightning](https://www.pytorchlightning.ai/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 高级 PyTorch 接口，帮助写出更高质量、更简洁的代码。 |
 
 ## 日志
 
-- [TensorBoard](https://www.tensorflow.org/tensorboard)：TensorBoard 集成的日志可视化工具，也可以单独安装并搭配 PyTorch 使用。与 PyTorch-Lightning、Ultralytics 等均有集成。基于 Python。
-- [Comet](https://www.comet.ml/site/)：日志可视化工具，可用于训练到生产全过程的管理、可视化和优化。基于 Python。对于一些不方便开放 Tensorbard 端口的服务器可以尝试这个工具，将日志同步到 Comet 账号上，实现外网实时访问和分享。
-- [ClearML](https://www.clear.ml/)：开源的日志可视化工具，便于分享，更适合团队使用。基于 Python。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [TensorBoard](https://www.tensorflow.org/tensorboard) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 日志可视化工具，TensorFlow 自带，可单独搭配 PyTorch 等。 |
+| [Comet](https://www.comet.ml/site/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 训练到生产的可视化与管理，支持外网访问与分享。 |
+| [ClearML](https://www.clear.ml/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 开源日志可视化与协作，更适合团队使用。 |
 
 ## 优化
 
-- [Optuna](https://optuna.org)：超参数优化框架，用于自动化超参数搜索，不依赖于具体使用的深度学习框架。
-- [Ax](https://ax.dev/)：基于 Pytorch 的超参数搜索框架，可简单绘制超参数分析。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [Optuna](https://optuna.org) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 超参数优化框架，自动搜索，框架无关。 |
+| [Ax](https://ax.dev/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 基于 PyTorch 的超参搜索框架，支持可视化分析。 |
 
 ## NLP
 
-- [transformers](https://huggingface.co/docs/transformers/index)：Hugging Face 出品，可直接调用预训练的 Transformers、BERT 等模型，包含了 NLP 相关的完整 Pipeline（数据集与处理、模型搭建与优化、训练与评估），基于 PyTorch。
-- [SentenceTransformers](https://www.sbert.net)：Python 库，可以直接获得句子级嵌入，基于 PyTorch。
-- [fairseq](https://github.com/pytorch/fairseq)：PyTorch 团队开发的 seq2seq 库，实现了较多主流模型，可以用于机器翻译、摘要等任务训练。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [transformers](https://huggingface.co/docs/transformers/index) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 预训练模型库，涵盖完整 NLP Pipeline，基于 PyTorch。 |
+| [SentenceTransformers](https://www.sbert.net) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 句子级嵌入库，基于 PyTorch。 |
+| [fairseq](https://github.com/pytorch/fairseq) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | PyTorch 团队的 seq2seq 库，支持翻译、摘要等任务。 |
 
 ## GNN
 
-- [DGL](https://www.dgl.ai/)：深度图神经网络库，支持异构图，支持 TensorFlow 和 PyTorch，实现了 GCN、GAT 等经典模型以及一些新论文的模型，自带部分经典图数据集（如 Karate Club dataset 等，使用时自动下载）。拥有中文用户指南。
-- [pytorch_geometric](https://www.pyg.org)、[tf_geometric](https://github.com/CrawlScript/tf_geometric)：相同风格的深度图神经网络库，支持异构图，分别支持 PyTorch 和 TensorFlow，实现了GCN、GAT 等经典模型以及一些新论文的模型，自带部分经典图数据集（如 Karate Club dataset 等，使用时自动下载）。
-- [PyGCL](https://github.com/GraphCL/PyGCL)：基于 PyTorch 的图对比学习框架。
-- [Neo4J](https://neo4j.com/)：图数据库，一个数据库实例就是一张大图，社区免费版只支持单个数据库实例。支持异构点和边，高效实现了各种经典的图算法（遍历、迭代、生成、查找、计算等），同时也支持经典的图机器学习算法（需安装 GDS 拓展包），拥有配套的可视化工具（Web端和客户端）。可用于存储大量的图数据、进行基础计算与分析、优化模型 IO。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [DGL](https://www.dgl.ai/) | ![Stale](https://img.shields.io/badge/Status-Stale-yellow) | 深度图神经网络库，支持异构图与经典模型，含数据集。 |
+| [pytorch_geometric](https://www.pyg.org) / [tf_geometric](https://github.com/CrawlScript/tf_geometric) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 同风格 GNN 库，分别支持 PyTorch / TensorFlow，涵盖经典与新模型。 |
+| [PyGCL](https://github.com/GraphCL/PyGCL) | ![Stale](https://img.shields.io/badge/Status-Stale-yellow) | PyTorch 图对比学习框架。 |
+| [Neo4J](https://neo4j.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | 图数据库，社区版免费单实例，支持图算法与可视化。 |
 
 ## CV
 
-- [Ultralytics](https://ultralytics.com/)：YOLOv8 的开发团队与论文作者，可直接调用预训练的 YOLOv5、YOLOv8 等模型，包含了 CV 相关的完整 Pipeline（数据集与处理、模型搭建与优化、训练与评估），基于 PyTorch。
-- [Open MMLab](https://openmmlab.com/codebase)：开放 CV 团队/社区，提供了通用的训练框架、模型、接口、工具箱，涉及 CV 研究中的 FewShot（少样本）、Flow（光流）、3D 等等领域。
+| 名称 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| [Ultralytics](https://ultralytics.com/) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) ![Freemium](https://img.shields.io/badge/Price-Freemium-orange) | YOLO 系列官方团队，提供预训练模型与完整 CV Pipeline。 |
+| [Open MMLab](https://openmmlab.com/codebase) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | 开放 CV 社区，提供通用训练框架、模型与工具箱，覆盖 FewShot、Flow、3D 等。 |
